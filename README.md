@@ -14,4 +14,4 @@ Then you can get icon by using the install script of the desk_icon, MAKE SURE TO
 
     bash icon_install.sh
 
-Go to your desktop and you'll see a new file there. You'll have to right click it and press "Allow Launching". You will see the icon populate, and now you can start the gui by double clicking [;)]
+Go to your desktop and you'll see a new file there. You'll have to right click it and press "Allow Launching". You will see the icon populate, and now you can start the gui by double clicking 
