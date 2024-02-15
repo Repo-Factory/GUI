@@ -8,10 +8,8 @@ To get the gui on your computer run
 
     git clone https://github.com/DiceLabs/gui
 
-If you want the icon to work, this must be clone to the $HOME/gui directory
+If you want the icon to work, this must be cloned to the $HOME/gui directory
 
-Then you can get icon by using the install script of the desk_icon
+Then you can get icon by using the install script of the desk_icon, MAKE SURE TO CD INTO desk_icon FOR THIS SCRIPT TO WORK
 
-    cd desk_icon
     bash icon_install.sh
-    cd ..
