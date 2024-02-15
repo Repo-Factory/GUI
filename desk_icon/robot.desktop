@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GUI
+Exec=/home/dicelabs/gui/desk_icon/launch_gui.sh
+Icon=/home/dicelabs/gui/desk_icon/robot_icon.jpeg
+Terminal=true
+StartupNotify=true
+X-MultipleArgs=false
+X-Desktop-File-Install-Version=0.26
