@@ -4,9 +4,12 @@ import sys
 import os
 
 def add_program_directories():
+    """ 
+        Setup Environment
+    """
     directories_to_add_to_path = [
         "src", 
-        "script",
+        "util",
         "src/home_page", 
         "src/controller"
     ]
@@ -16,11 +19,12 @@ def add_program_directories():
             sys.path.append(path)
 add_program_directories()
 
-from path_concat import styles_path
+##############################################################################
+
 from PyQt5 import QtWidgets
 from mainwindow import MyWindow
+from resources import STYLESHEET
 
-STYLESHEET = styles_path("indigo.qss")
 READ_MODE  = "r"
 if __name__ == '__main__':
     add_program_directories()

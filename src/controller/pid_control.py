@@ -1,7 +1,6 @@
 from PyQt5 import QtWidgets, uic
-from path_concat import ui_path
+from resources import CONTROL_UI
 
-CONTROL_UI = ui_path('pid_control.ui')
 class PIDController(QtWidgets.QDialog):
     def __init__(self):
         super().__init__()

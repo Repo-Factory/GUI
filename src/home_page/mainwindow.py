@@ -2,9 +2,7 @@ from PyQt5 import QtWidgets, uic
 from home_page.navigate_pages import ButtonActions
 from home_page.add_pages import AddPage
 from home_page.icons import Icons
-from path_concat import ui_path
-
-MAINWINDOW_UI_FILE = ui_path('mainwindow.ui')
+from resources import MAINWINDOW_UI_FILE
 
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
