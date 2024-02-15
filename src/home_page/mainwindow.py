@@ -4,7 +4,7 @@ from add_pages import AddPage
 from icons import Icons
 from resources import MAINWINDOW_UI_FILE
 
-class MyWindow(QtWidgets.QMainWindow):
+class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi(MAINWINDOW_UI_FILE, self)

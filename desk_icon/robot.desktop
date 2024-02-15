@@ -2,8 +2,8 @@
 Version=1.0
 Type=Application
 Name=GUI
-Exec=/home/dicelabs/gui/desk_icon/launch_gui.sh
-Icon=/home/dicelabs/gui/desk_icon/robot_icon.jpeg
+Exec=/home/robox/gui/desk_icon/launch_gui.sh
+Icon=/home/robox/gui/desk_icon/robot_icon.jpeg
 Terminal=true
 StartupNotify=true
 X-MultipleArgs=false
